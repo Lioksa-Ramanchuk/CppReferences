@@ -57,7 +57,4 @@ std::optional<int> Widget::data() const {
   return data_ ? std::optional<int>{*data_} : std::nullopt;
 }
 
-void Widget::set_data(const int& data) { set_data_impl(data); }
-void Widget::set_data(int&& data) { set_data_impl(std::move(data)); }
-
 }  // namespace the_rule_of_five

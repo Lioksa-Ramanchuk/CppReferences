@@ -5,7 +5,7 @@
 namespace the_rule_of_five {
 
 template <typename T>
-void Widget::set_data_impl(T&& data)
+void Widget::set_data(T&& data)
   requires std::same_as<std::decay_t<T>, int>
 {
   std::unique_lock lock(mutex_);

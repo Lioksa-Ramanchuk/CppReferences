@@ -17,14 +17,11 @@ class Widget {
 
   std::optional<int> data() const;
 
-  void set_data(const int& data);
-  void set_data(int&& data);
-
- private:
   template <typename T>
-  void set_data_impl(T&& data)
+  void set_data(T&& data)
     requires std::same_as<std::decay_t<T>, int>;
 
+ private:
   mutable std::shared_mutex mutex_;
   int* data_;
 };
