@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheRuleOfFive", "TheRuleOfF
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pimpl", "Pimpl\Pimpl.vcxproj", "{96E358B8-6862-4B07-9BE7-7B95B5F06F03}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Logger", "Logger\Logger.vcxproj", "{E61DE416-184C-4AE1-BA8B-FFC5D1158E28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{96E358B8-6862-4B07-9BE7-7B95B5F06F03}.Release|x64.Build.0 = Release|x64
 		{96E358B8-6862-4B07-9BE7-7B95B5F06F03}.Release|x86.ActiveCfg = Release|Win32
 		{96E358B8-6862-4B07-9BE7-7B95B5F06F03}.Release|x86.Build.0 = Release|Win32
+		{E61DE416-184C-4AE1-BA8B-FFC5D1158E28}.Debug|x64.ActiveCfg = Debug|x64
+		{E61DE416-184C-4AE1-BA8B-FFC5D1158E28}.Debug|x64.Build.0 = Debug|x64
+		{E61DE416-184C-4AE1-BA8B-FFC5D1158E28}.Debug|x86.ActiveCfg = Debug|Win32
+		{E61DE416-184C-4AE1-BA8B-FFC5D1158E28}.Debug|x86.Build.0 = Debug|Win32
+		{E61DE416-184C-4AE1-BA8B-FFC5D1158E28}.Release|x64.ActiveCfg = Release|x64
+		{E61DE416-184C-4AE1-BA8B-FFC5D1158E28}.Release|x64.Build.0 = Release|x64
+		{E61DE416-184C-4AE1-BA8B-FFC5D1158E28}.Release|x86.ActiveCfg = Release|Win32
+		{E61DE416-184C-4AE1-BA8B-FFC5D1158E28}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
